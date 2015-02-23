@@ -41,6 +41,9 @@ doubleEveryOther :: [Integer] -> [Integer]
 --
 -- >>> sumDigits [16,7,12,5]
 -- 22
+--
+-- >>> sumDigits []
+-- 0
 sumDigits :: [Integer] -> Integer
 
 -- |
