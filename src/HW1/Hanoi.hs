@@ -1,6 +1,6 @@
 -- |
 -- Tower of Hanoi
-module Hanoi where
+module HW1.Hanoi where
 
 -- |
 -- The name of a peg

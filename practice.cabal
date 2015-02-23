@@ -48,10 +48,10 @@ cabal-version:       >=1.10
 
 library
   -- Modules exported by the library.
-  exposed-modules:     HW1.CreditCard, Lecture.Hailstone
+  exposed-modules:     HW1.CreditCard, HW1.Hanoi
 
   -- Modules included in this library but not exported.
-  -- other-modules:
+  other-modules:    Lecture.Hailstone
 
   -- LANGUAGE extensions used by modules in this package.
   -- other-extensions:
@@ -71,5 +71,4 @@ Test-Suite doctest
   HS-Source-Dirs:       test
   Ghc-Options:          -threaded -Wall
   Main-Is:              doctests.hs
-  Build-Depends:        base
-                      , doctest >= 0.9.3
+  Build-Depends:        base, doctest >= 0.9.3
