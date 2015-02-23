@@ -1,3 +1,5 @@
+-- |
+-- The first HW assignment.
 module HW1.CreditCard (toDigits, toDigitsRev, doubleEveryOther, sumDigits, validate) where
 import Data.Char
 
@@ -37,7 +39,6 @@ doubleEveryOther :: [Integer] -> [Integer]
 -- >>> sumDigits [12,3,4]
 -- 10
 --
--- 1 + 6 + 7 + 1 + 2 + 5
 -- >>> sumDigits [16,7,12,5]
 -- 22
 sumDigits :: [Integer] -> Integer
